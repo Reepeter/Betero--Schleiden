@@ -1,11 +1,11 @@
 
+#Drawing a rectangle
+import turtle ast 
 
-import turtle ast
+t.pensize(10) # Size of pen
+t.color('blue') # Background color
 
-t.pensize(10)
-t.color('blue')
-
-t.begin_fill()
+t.begin_fill() # Starts the fill
 t.forward(100)
 t.backward(200)
 
@@ -17,4 +17,4 @@ t.forward(200)
 
 t.left(90)
 t.forward(100)
-t.end_fill()
+t.end_fill() # Ends the fill
